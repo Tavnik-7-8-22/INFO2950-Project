@@ -1,2 +1,14 @@
 311ServiceRequests.csv
 .DS_Store
+
+# Large data files made by the notebooks (too big for GitHub; re-create them by running the notebooks)
+ComplaintsWeather.csv
+daily_complaint_type_counts.csv
+daily_weather.csv
+
+# Jupyter and Python temporary files
+.ipynb_checkpoints/
+__pycache__/
+
+# Exported report PDF (submitted on Gradescope, not stored in the repo)
+complaints_weather_analysis.pdf
